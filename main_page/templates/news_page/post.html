@@ -1,0 +1,18 @@
+{% extends "wrapper.html" %}
+{% block content %}
+{% load static %}
+<title>{{post.title}}</title>
+<div class="postclass">
+    <div class="dani"><h1>{{post.title}}</h1>
+    <p>{{post.text}}</p>
+    <h2>{{post.date |date:"d-m-Y"}}</h2></div>
+    <div class="images">
+        <div id="images2"><img src="{{ post.image1.url}}" alt="">
+        <img src="{{post.image2.url}}" alt=""></div>
+        <div id="images2"><img src="{{post.image3.url}}" alt="">
+        <img src="{{post.image4.url}}" alt=""></div>
+        <div id="images2"><img src="{{post.image5.url}}" alt="">
+        <img src="{{post.image5.url}}" alt=""></div>
+    </div>
+</div>
+{% endblock %}

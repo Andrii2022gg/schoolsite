@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.main a {
+    text-decoration: none;
+    color: black;
+}
+.informpanel {
+    border-radius: 20px;
+    background-color: blue;
+    height: 165px; 
+}
+.informpanel p {
+    color: rgb(209, 162, 6);
+    font-weight: bold;
+}
+.prsl {
+    background-color: rgb(6, 83, 199);
+    float: right;
+    font-weight: bold;
+    width: 600px;
+    margin-top: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(209, 162, 6);
+    font-family: 'Courgette', cursive;
+    margin-right: 230px;
+}
+.prsl p {
+    margin-left: 10px;
+}
+.prsl img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.name {
+    margin-left: 35%;
+    color: white;
+    font-size: 30px; 
+}
+.name2 {
+    margin-left: 30%;
+    color: white;
+    font-size: 30px;
+}
+.name3 {
+    margin-left: 32%;
+    color: white;
+    font-size: 30px;
+}
+.im1 {
+    float:right;
+    height: 144px;
+    width: 243px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.im2 {
+    float:left;
+    height: 146px;
+    width: 138px;
+    margin-left: 10px;
+    
+}
+
+
+
+#menu1{
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    display: block;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    background-color: rgb(0, 153, 255);
+    border-radius: 25px;
+}
+#menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+#menu1 > ul::after{
+    display: block;
+    width: 0px;
+    height: 200px;
+    clear: both;
+    content: " ";
+}
+#menu1 ul li{
+    position: relative;
+    display: block;
+    /* float: left; */
+    width: auto;
+    height: auto;
+}
+#menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+#menu1 ul li ul{
+    position: absolute;
+    /* top: -100px; */
+    top: 10px;
+    left: 390px;
+    display: none;
+    width: 200px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+#menu1 ul li:hover ul{
+    display: block;
+}
+#menu1 ul li ul li{
+    float: none;
+    width: 100%;
+}
+#menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: black;
+}
+#menu1 ul li ul li:first-child a{
+    border-top: 0px;
+}
+
+
+.carousele{
+    margin: 10px;
+    width: 80%;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.carousele div img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    width: 500px;
+    height: 450px;
+}
+/* .element center{
+    display: flex; */
+    /* margin-right: 200px;
+} */
+#h2{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: blue;
+}
+#p{
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+.carousele-decor{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 153, 255); 
+    margin-top: 250px;
+    margin-left: 400px;
+
+}
+.strategiarozvitku_a{
+    width: 500px;
+    font-size: 30px;
+}
+.statut_a{
+    width: 500px;
+    font-size: 30px;
+}
+.programs_yaki_rel_v_zakladi_a{
+    width: 500px;
+    font-size: 30px;
+}
+.teacherslist_a{
+    width: 500px;
+    font-size: 30px;
+}

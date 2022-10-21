@@ -1,0 +1,43 @@
+.images img{
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+} 
+.images{
+    border-radius: 10px;
+    background-color: rgb(0, 153, 255);
+}
+#images2{
+    display: flex;
+
+}
+.postclass {
+    float: right;
+    width: 850px;;
+    /* margin-top: 250px; */
+    margin-right: 50px;
+}
+.dani p {
+    font-size: 20px;
+}
+.dani{
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.postsdiv{
+    background-color: rgb(0, 153, 255);
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 900px;
+    border-radius: 10px;
+}
+.postsdiv center a h1{
+    color: black;
+}
+.postsdiv center a{
+    text-decoration: none;
+}

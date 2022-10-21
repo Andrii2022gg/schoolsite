@@ -1,0 +1,13 @@
+{% extends "wrapper.html" %}
+{% block content %}
+{% load static %}
+<div style="width: 900px; display: flex;">
+    <div><img style="width: 400px; object-fit: contain; margin-left: 10px; border-radius: 15px; margin-top: 10px;" src="{% static '/mainpage/img/director.png' %}" alt="">
+    <p style="display: block; margin-left: 25%; font-weight: bold; color: rgb(0, 0, 255); font-size: 20px;">Директор гімназії:</p>
+    <p style="display: block; margin-left: 21%; font-weight: bold; color: rgb(0, 0, 255); font-size: 20px;">Яцущак Віра Іванівна</p></div>
+    
+    <div><img style="width: 475px; object-fit: contain; margin-left: 10px; border-radius: 15px; margin-top: 10px;" src="{% static '/mainpage/img/director_zastupnik.png' %}" alt="">
+        <p style="display: block; margin-left: 25%; font-weight: bold; color: rgb(0, 0, 255); font-size: 20px;">Заступник директора гімназії:</p>
+        <p style="display: block; margin-left: 23%; font-weight: bold; color: rgb(0, 0, 255); font-size: 20px;">Пасічник Орися Володимирівна</p></div>
+</div>
+{% endblock %}

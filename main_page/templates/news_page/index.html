@@ -1,0 +1,11 @@
+{% extends "wrapper.html" %}
+{% block content %}
+{% load static %}
+<title>Новини</title>
+{% for post in object_list %}
+<div class="postsdiv">
+    <center><a href="/Новини/{{post.id}}"><h1>{{ post.title }}</h1></a>
+    <h2>Дата публікації: {{post.date |date:"d-m-Y"}}</h2></center>
+</div>
+{% endfor %}
+{% endblock %}

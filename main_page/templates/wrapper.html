@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/mainpage/css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static '/news_page/css/style.css' %}"/>
+    
+     <link rel="stylesheet" type="text/css" href="{% static '\mainpage\js\slick/slick.css'%}"/>
+    <link rel="stylesheet" type="text/css" href="{% static '\mainpage\js\slick/slick-theme.css' %}"/>
+</head>
+<header>
+    <div class="informpanel">
+        <img class="im2" src="{% static '/mainpage/img/gerb.png' %}" alt="2">
+        <img class="im1" src="{% static '/mainpage/img/schoolimg1.jpg' %}" alt="1">
+        <div>
+            <p class="name">Перевозецька гімназія</p>
+            <p class="name2">імені професора Ігоря Андрухіва</p>
+            <p class="name3">Войнилівської селищної ради</p>
+        </div>
+    </div> 
+    <div class="prsl">
+        <img src="{% static '\mainpage\img/booksimage.jpg'%}" alt="hello">
+        <p>Учітесь, читайте, </p>
+        <p>і чужому научайтесь,</p>
+        <p>й свого не цурайтесь.</p>
+        <p>(Т. Г. Шевченко)</p>        
+    </div>
+</header>
+<body>
+    <nav id="menu1">
+        <ul>
+            <li><a href="\Головна">Головна</a></li>            
+            <li><a href="\Контакти">Контакти</a></li>
+            <li><a href="\Адміністрація">Адміністрація</a></li>
+            <li><a href="\Новини">Новини</a>
+                <ul>
+                    <li><a href="/admin">Додати пост</a></li>
+                </ul>
+            </li>
+            <li><a href="">Прозорість та інформаційна відкритість</a></li>
+            <li><a href="">                                                                              Розділ 1</a>
+                <ul>
+                    <li><a href="\Статут">Статут гімназії</a></li>
+                    <li><a href="\Стратегія розвитку гімназії">Стратегія розвитку гімназії</a></li>
+                    <li><a href="">Ліцензія</a></li>
+                    <li><a href="">Структура гімназії</a></li>
+                    <li><a href="">Річний план</a></li>
+                    <li><a href="">Річний звіт роботи гімназії</a></li>
+                    <li><a href="\Освітні програми, що реалізуються в закладі">Освітні програми, що реалізуються в закладі</a></li>
+                    <li><a href="">Мова освітнього процесу - українська</a></li>
+                    <li><a href="">Фактична кількість осіб, що навчаються</a></li>
+                    <li><a href="">Моніторинг якості освіти</a></li>
+                    <li><a href="">Територія обслуговування</a></li>
+                </ul></li>
+            <li><a href="">                                                                              Розділ 2</a>
+                <ul>
+                    <li><a href="\Кадровий склад">Кадровий склад</a></li>
+                    <li><a href="">Вакансії</a></li>
+                    <li><a href="">Матеріальне забезпечення</a></li>
+                    <li><a href="">Обіг коштів</a></li>
+                    <li><a href="">Інклюзивне навчання</a></li>
+                    <li><a href="">Набір до 1 класу</a></li>
+                </ul></li>
+            <li><a href="">Здобувачам освіти</a>
+                <ul>
+                    <li><a href="">Безпека в інтернеті</a></li>
+                    <li><a href="">Конверція про права дитини</a></li>
+                </ul></li>
+            
+            <li><a href="">Батькам</a>
+                <ul>
+                    <li><a href="">Про інтернет-залежність</a></li>
+                    <li><a href="">Далі будеі</a></li>
+                </ul></li>
+            
+            <li><a href="">Сторінка Психологічної служби</a>
+                <ul>
+                    <li><a href="">Далі будеі</a></li>
+                    <li><a href="">Далі будеі</a></li>
+                </ul></li>
+            
+            <li><a href="">Виховна робота</a>
+                <ul>
+                    <li><a href="">Далі будеі</a></li>
+                    <li><a href="">Далі будеі</a></li>
+                </ul></li>
+            </li>
+            <li><a href="\STOP булінг">STOP булінг</a></li>
+            <li><a href="\Безпечне освітнє середовище">Безпечне освітнє середовище</a></li>    
+            <li><a href="\Корисні посилання">Корисні посилання</a></li>           
+        </ul>
+      </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="{% static '\mainpage\js/slick/slick.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'mainpage/js/carousele.js' %}"></script>
+</html>
